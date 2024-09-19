@@ -1,0 +1,99 @@
+<!Doctype Html>
+<Html>   
+<Head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="ContactUs.css"> 
+<Title>   
+ConctactUsPage
+</Title>
+<style> 
+</style> 
+</Head>
+<Body> 
+<section>
+<header>
+<nav>
+
+<ul>
+    <li>
+        <a href="HomePage.HTML"><font size="5" color="white">WatcHGoods</font></a>
+    </li>
+    <li>
+        <a class="active" href="HomePage.HTML">Home</a>
+    </li>
+    <li>
+        <a href="ProductPage.HTML"> Product </a>
+    </li>
+    <li>
+        <a href="AboutUs.HTML"> About Us </a>
+    </li>
+    <li> 
+        <a href="Location.HTML"> Location </a>
+    </li>
+    <li>
+        <a href="ContactUs.HTML"> <font color="gray">Contact Us</font> </a>
+    </li>
+</ul>
+</nav>
+</header>
+</section>
+<br>
+<br>
+<h1 class="judul">
+    Contact Us
+</h1>
+<br>
+<form method="post">
+    <label id="n1" for="name">Name: </label>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <label id="n1" for="email">Email: </label>
+    <input type="text" name="email" id="email">
+    <br>
+    <br>
+    <label id="n1" for="region">Region: </label>
+    <select id="region" name="region">
+        <option value="">Select Region</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Pontianak">Pontianak</option>
+        <option value="Bali">Bali</option>
+        <option value="Medan">Medan</option>
+        <option value="Semarang">Semarang</option>
+    </select>
+    <br>
+    <br>
+    <label id="n2" for="Message">Message: </label>
+    <input type="text" name="Message" id="Message">
+    <br>
+    <br>
+    <input type="checkbox" name="agreement" id="agreement">
+    <label id="n3" for="agreement">I agree to the terms and condition</label>
+    <br>
+    <br>
+    <button id="button" type="button" onclick="validation()">SUBMIT</button>
+    <br>
+    <br>
+    <button id="reset" type="reset">Reset</button>
+</form>
+<section>
+    <div class="footer">
+        <span id="bawah">WatcHGoods</span>
+        <br>
+        <span id="tentang1">WatcHGoods Company:</span>
+        <br>
+        <span id="tentang">HandPhone : +62-524-5346-5647</span>
+        <br>
+        <span id="tentang">Email : WatcHGoods@gmail.com</span>
+        <br>
+        <span id="tentang">Instagram : WatcH_Goods</span>
+        <br>
+        <span id="tentang">Twitter : W@tcHG00ds</span>
+        
+    </div>
+</section>
+</Body>
+<script src="ContactUs.JS"></script> 
+</Html>
